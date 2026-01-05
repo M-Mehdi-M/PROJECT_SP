@@ -1,0 +1,21 @@
+======================================================================
+NSnet2 SPEECH ENHANCEMENT - EVALUATION SUMMARY
+======================================================================
+
+Model: nsnet2_epoch_10.pth
+Samples Evaluated: 50
+Total Audio Duration: 500.0 seconds
+
+--------------------------------------------------
+RESULTS TABLE (for documentation)
+--------------------------------------------------
+
+| Metric | Input (Noisy) | Output (Enhanced) | Improvement |
+|--------|---------------|-------------------|-------------|
+| SNR (dB) | 7.47 | 15.01 | +7.53 |
+| SI-SDR (dB) | 7.47 | 14.75 | +7.28 |
+| PESQ | 1.675 | 2.216 | +0.542 |
+| STOI | 0.899 | 0.923 | +0.024 |
+
+Real-Time Factor: 0.0163 (61.4x real-time)
+Model Parameters: 2,959,961
